@@ -6,7 +6,7 @@ var chosenHam;
 
 
 function handleGoodRequest(request, response){
-        var i = Math.floor(Math.random() * 4);
+        var i = Math.floor(Math.random() * 5);
         chosenHam = goodHams[i];
         response.end(chosenHam);
         console.log(chosenHam);
